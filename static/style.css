@@ -1,0 +1,109 @@
+/* ==========================================================================
+   Deep Learning Gold Price Predictor - Custom Styling System
+   ========================================================================== */
+
+/* ১. রুট গ্লোবাল কনফিগারেশন */
+:root {
+    --primary-dark: #0f172a;
+    --accent-gold: #f59e0b;
+    --success-green: #10b981;
+    --chart-indigo: #6366f1;
+}
+
+body {
+    font-family: 'Inter', 'Hind Siliguri', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ২. টপ ব্যানার কাস্টম গ্রেডিয়েন্ট ও গ্লোয়িং বাটন ইফেক্টস */
+.bg-custom-gradient {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, #1e3a8a 50%, #3b82f6 100%);
+}
+
+.btn-glow {
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-glow:hover {
+    box-shadow: 0 0 25px rgba(245, 158, 11, 0.65);
+    transform: translateY(-2px);
+    background-color: #d97706;
+}
+
+.btn-glow:active {
+    transform: translateY(0);
+}
+
+/* ৩. ইনফো কার্ড কাস্টম ডিজাইন ও ৩D হোভার অ্যানিমেশন */
+.unique-card-1 {
+    background: linear-gradient(145deg, #ffffff, #f0fdf4);
+    border-left: 5px solid var(--success-green);
+    box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.08);
+    transition: all 0.3s ease;
+}
+
+.unique-card-2 {
+    background: linear-gradient(145deg, #ffffff, #f0f9ff);
+    border-left: 5px solid #0284c7;
+    box-shadow: 0 10px 25px -5px rgba(2, 132, 199, 0.08);
+    transition: all 0.3s ease;
+}
+
+.unique-card-3 {
+    background: linear-gradient(145deg, #ffffff, #faf5ff);
+    border-left: 5px solid #8b5cf6;
+    box-shadow: 0 10px 25px -5px rgba(139, 92, 246, 0.08);
+    transition: all 0.3s ease;
+}
+
+.unique-card-1:hover, 
+.unique-card-2:hover, 
+.unique-card-3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 30px -10px rgba(15, 23, 42, 0.15);
+}
+
+/* ৪. ড্যাশবোর্ড ডেটা টেবিল রেডিয়াস ফাইন-টিউনিং */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+/* ৫. সিএসভি ড্রপজোন ফাইল আপলোড বর্ডার অ্যানিমেশন */
+form .border-dashed {
+    transition: all 0.2s ease-in-out;
+}
+
+form .border-dashed:hover {
+    border-color: var(--chart-indigo);
+    background-color: rgba(99, 102, 241, 0.05);
+}
+
+/* ৬. গ্লোবাল ড্যাশবোর্ড স্ক্রলবার কাস্টমাইজেশন */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
