@@ -156,39 +156,6 @@ The model automatically generates:
 | 📈 Chart.js | Interactive Charts |
 | 💾 Scikit-learn | Scaling & Metrics |
 
----
-
-# 📂 Project Structure
-
-```text
-Gold-Price-Prediction/
-│
-├── app.py
-├── train_model.py
-├── predict.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│      gold_price.csv
-│
-├── model/
-│      lstm_model.keras
-│
-├── templates/
-│      index.html
-│
-├── static/
-│      css/
-│      js/
-│      images/
-│
-└── screenshots/
-       homepage.png
-       prediction.png
-```
-
----
 
 # 🚀 Installation
 
