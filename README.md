@@ -129,26 +129,7 @@ The model automatically generates:
 - 📊 Historical Volatility
 - 📅 Time-based Features
 
----
 
-# 📷 Dashboard Preview
-
-> 📌 Replace these with your own screenshots.
-
-```
-images/
-│
-├── homepage.png
-├── prediction.png
-├── dashboard.png
-├── graph.png
-├── loss_curve.png
-├── actual_vs_predicted.png
-├── residual_plot.png
-└── future_forecast.png
-```
-
----
 
 # 📈 Model Performance
 
