@@ -189,7 +189,7 @@ python app.py
 ## 5️⃣ Open the Application
 
 ```text
-http://127.0.0.1:5000
+ http://127.0.0.1:8080
 ```
 
 The Gold Price Prediction dashboard will be displayed, where you can enter input data, generate predictions, and visualize the forecasting results.
