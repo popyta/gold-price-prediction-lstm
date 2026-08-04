@@ -212,13 +212,36 @@ This repository contains all the required resources for the **Gold Price Predict
 
 # 🎥 Deployment Video
 
-The deployment video demonstrates the complete workflow of the project, including:
+The deployment video demonstrates the complete workflow of the **Gold Price Prediction System**, showcasing how the application predicts future gold prices using a **Deep Stacked LSTM Neural Network**. The demonstration covers every major component of the project, from launching the application to generating predictions and visualizing the results.
 
-- ▶️ Running the Flask application
-- 📥 Providing input data
-- 🤖 Generating gold price predictions
-- 📊 Displaying prediction results and charts
-- 🌐 Using the interactive dashboard
+### 📋 The demonstration includes:
+
+- 🚀 Launching the Flask web application
+- 📂 Loading and preprocessing the historical gold price dataset
+- 📥 Providing input data through the web interface
+- 🧠 Processing the data using the Deep Stacked LSTM model
+- 🤖 Generating future gold price predictions
+- 📊 Displaying prediction results with interactive charts
+- 📈 Visualizing historical and forecasted price trends
+- 🌐 Exploring the user-friendly Flask dashboard
+- 📄 Demonstrating the complete prediction workflow
+- 💾 Downloading the generated prediction report (PDF)
+
+---
+
+## 📹 Project Demonstration
+
+### 🎬 Watch or Download the Deployment Video
+
+➡️ **[▶️ Watch on GitHub](https://github.com/popyta/gold-price-prediction-lstm/blob/main/Demo/Gold%20Price%20Prediction%20Using%20Deep%20Learning.mp4)**
+
+📥 **Direct Download**
+
+➡️ **[⬇️ Download Deployment Video](https://raw.githubusercontent.com/popyta/gold-price-prediction-lstm/main/Demo/Gold%20Price%20Prediction%20Using%20Deep%20Learning.mp4)**
+
+---
+
+> **Note:** GitHub may not preview large MP4 files directly. If the video preview is unavailable, click **View Raw** or use the **Direct Download** link above to watch the demonstration on your device.
 
 ---
 
