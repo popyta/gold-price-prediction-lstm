@@ -157,30 +157,42 @@ The model automatically generates:
 | 💾 Scikit-learn | Scaling & Metrics |
 
 
-# 🚀 Installation
+---
 
-Follow the steps below to run the project on your local machine.
+# 📂 Project Resources
 
-```bash
-# Clone the repository
-git clone https://github.com/popyta/gold-price-prediction-lstm.git
+This repository contains all the required resources for the **Gold Price Prediction System** project, including the proposal, dataset, source code, final report, and deployment demonstration video.
 
-# Navigate to the project directory
-cd gold-price-prediction-lstm
+| 📄 Resource | 🔗 Description |
+|-------------|----------------|
+| 📑 **Project Proposal** | [View Project Proposal](./Proposal/) |
+| 📊 **Dataset** | [View Dataset](./Dataset/) |
+| 💻 **Source Code** | [Browse Source Code](./) |
+| 📘 **Final Report** | [View Final Report](./Report/) |
+| 🎥 **Deployment Video** | [Watch / Download Demo](./Demo/Gold%20Price%20Prediction%20Using%20Deep%20Learning.mp4) |
 
-# Install all required dependencies
-pip install -r requirements.txt
+---
 
-# Run the Flask application
-python app.py
-```
+# 🎥 Deployment Video
 
-After running the application, open your web browser and visit:
+The deployment video demonstrates the complete workflow of the **Gold Price Prediction System**, including:
 
-```
-[http://127.0.0.1:8080]
-```
+- 🚀 Launching the Flask web application
+- 📂 Loading and preprocessing the dataset
+- 📝 Entering user input
+- 🤖 Generating gold price predictions using the Deep Stacked LSTM model
+- 📈 Displaying prediction results and visualizations
+- 📄 Downloading the prediction report in PDF format
 
+> 📹 **Project Demonstration**
+
+### 🎬 Watch or Download the Deployment Video
+
+➡️ **[Gold Price Prediction System Demo](./Demo/Gold%20Price%20Prediction%20Using%20Deep%20Learning.mp4)**
+
+> **Note:** GitHub may not preview large MP4 files directly. If the video preview is unavailable, click **View Raw** or download the file to watch it on your device.
+
+---
 ---
 
 # 🌍 Future Improvements
