@@ -159,14 +159,26 @@ The model automatically generates:
 
 # 🚀 Installation
 
+Follow the steps below to run the project on your local machine.
+
 ```bash
-git clone https://github.com/yourusername/Gold-Price-Prediction.git
+# Clone the repository
+git clone https://github.com/popyta/gold-price-prediction-lstm.git
 
-cd Gold-Price-Prediction
+# Navigate to the project directory
+cd gold-price-prediction-lstm
 
+# Install all required dependencies
 pip install -r requirements.txt
 
+# Run the Flask application
 python app.py
+```
+
+After running the application, open your web browser and visit:
+
+```
+[http://127.0.0.1:8080]
 ```
 
 ---
