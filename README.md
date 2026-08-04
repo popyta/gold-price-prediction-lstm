@@ -163,13 +163,15 @@ The model automatically generates:
 
 This repository contains all the required resources for the **Gold Price Prediction System** project, including the proposal, dataset, source code, final report, and deployment demonstration video.
 
-| 📄 Resource | 🔗 Description |
-|-------------|----------------|
-| 📑 **Project Proposal** | [View Project Proposal](./Proposal/) |
-| 📊 **Dataset** | [View Dataset](./Dataset/) |
-| 💻 **Source Code** | [Browse Source Code](./) |
-| 📘 **Final Report** | [View Final Report](./Report/) |
-| 🎥 **Deployment Video** | [Watch / Download Demo](./Demo/Gold%20Price%20Prediction%20Using%20Deep%20Learning.mp4) |
+| 📄 Resource | 🔗 Link |
+|-------------|----------|
+| 📊 Dataset | [📂 View Dataset](./data/) |
+| 📓 Jupyter Notebook | [📂 View Notebooks](./notebooks/) |
+| 💻 Source Code | [📂 Browse Source Code](./) |
+| 📘 Final Report | [📄 View Final Report](./docs/report_final_fixed.pdf) |
+| 🎥 Deployment Video | [🎬 Watch / Download Demo](./Demo/Gold%20Price%20Prediction%20Using%20Deep%20Learning.mp4) |
+
+---
 
 ---
 
